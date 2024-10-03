@@ -24,7 +24,7 @@
         visibility: hidden;
         opacity: 0;
         transition: all .5s linear;
-        /* z-index: 999; */
+        z-index: 999;
 
     }
 
@@ -41,11 +41,17 @@
     /* z-index: 999; */
     }
 
+    .container #nav .bar{
+        z-index: 999;
+
+    }
+
 
     .bar .nav-bar[name="reorder-three-outline"]{
         display: block;
         font-size: 40px;
         color: #fff;
+        /* z-index: 999; */
     }
     /* .cross-bar{
         display: none;
@@ -59,6 +65,7 @@
 
     .active .bar .cross-bar[name ="close"]{
         display: block;
+        z-index: 999;
     }
 
 
