@@ -92,7 +92,7 @@
     .bar{
         color: #fff;
         font-size: 40px;
-        display: none;
+        /* display: none; */
     }
 
     .nav-bar{
